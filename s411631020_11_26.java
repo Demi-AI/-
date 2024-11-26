@@ -133,7 +133,7 @@ public class s411631020_11_26 {
         int sum = 0, range, i;
         Scanner sc = new Scanner(System.in);
         System.out.print("請輸入奇數和的範圍: ");
-        while (!sc.hasNextInt()) { 
+        while (!sc.hasNextInt()) { // 輸入非整數，就執行迴圈
             System.out.print("re-enter number: ");
             sc.next(); // 清除已輸入的內容！！
         }
